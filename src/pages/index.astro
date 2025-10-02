@@ -10,26 +10,32 @@ import Card from "../components/Card.astro";
 
 <!-- You can replace the card's data with your own here. -->
 <BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
-	<Card
-		name="Group Assignment"
-		position="Ayu Qanita Putri | XII TKJ 2"
-		aboutMe={`((Jadiin Bing Juga Gapapa))Halo semua, perkenalkan kami dari SMKN 2 Malang, sebagai siswa jurusan Teknik Komputer Jaringan.
-				Kami mempelajari materi dari PT MejaKita dengan sungguh-sungguh, karena kami ingin berkembang, terutama di bidang
-				Rekayasa Perangkat Lunak. Meteri dasar yang kami kuasai meliputi HTML, CSS, Javascript, dan PHP.`}
-		linkedin="https://www.linkedin.com/in/#"
-		github="https://www.github.com/#"
-		cvLink="apapun itu, jangan sore-sore ya -rcy"
-		rofileImage="/images/cat.jpeg"
-	/>
-	<Card
-		name="Group Assignment"
-		position="Nasywa Faizah Avianisa | XII TKJ 2"
-		aboutMe={`Apa ya? yah gitu lah kira-kira, udah dijelasin di atas. Begitulah kura-kura.`}
-		linkedin="https://www.linkedin.com/in/#"
-		github="https://www.github.com/#"
-		cvLink="Iyaa seeh -fr"
-		profileImage="/images/cat.jpeg"
-	/>
+	<div class="container">
+		<div class="card-container">
+			<Card
+				name="Ayu Qanita Putri Wasch"
+				position="Manager"
+				aboutMe={`Halo semua, perkenalkan kami dari SMKN 2 Malang, sebagai siswa jurusan Teknik Komputer Jaringan.
+						Kami mempelajari materi dari PT MejaKita dengan sungguh-sungguh, karena kami ingin berkembang, terutama di bidang
+						Rekayasa Perangkat Lunak. Meteri dasar yang kami kuasai meliputi HTML, CSS, Javascript, dan PHP.`}
+				linkedin="https://www.linkedin.com/in/#"
+				github="https://www.github.com/#"
+				cvLink="apapun itu, jangan sore-sore ya -rcy"
+				profileImage="/images/cat.jpeg"
+			/>
+			<Card
+				name="Nasywa Faizah Avianisa"
+				position="Assistant"
+				aboutMe={`Apa ya? yah gitu lah kira-kira, udah dijelasin di atas. Begitulah kura-kura ... dan naga. Yaudah izin yapping yaa. 
+						Jadi kurang lebih seperti itu ya adengan apa yang kami kerjakan. Kami lama karena banyaknya eksplor dan mencoba semuanya, 
+						padahal yang lain pada nyari template mudah, kita malah mempersulit diri sendiri :D. Sekian.`}
+				linkedin="https://www.linkedin.com/in/#"
+				github="https://www.github.com/#"
+				cvLink="Iyaa seeh -fr"
+				profileImage="/images/Soobin.jpg"
+			/>
+		</div>
+	</div>
 </BaseLayout>
 
 <!--
