@@ -1,10 +1,8 @@
 # Personal Professional Card Astro
 
-"Hi there!, I'm Brian. I hope this small template helps you gain visibility while you build great projects. Thank you for using it. I wish you success in everything you set out to do; you will surely achieve great things.
+"Hi, ini kami. Siswi SMKN 2 Malang yang sedang melaksanakan tugas yang diberikan oleh PT MejaKita, kami menggunakan salah satu template Vercel. 
 
-You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
-
-Have a great day!"
+Berikut adalah link publik dengan materi commit, push, dan pull : https://nasry.vercel.app/ "
 
 
 ![example page](pageexample.png)
